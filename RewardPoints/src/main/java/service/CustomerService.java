@@ -6,6 +6,7 @@ import dao.CustomerRepository;
 import exception.CustomerNotFoundException;
 import model.Customer;
 
+@Service
 public class CustomerService {
 	
 	private final CustomerRepository repository;
