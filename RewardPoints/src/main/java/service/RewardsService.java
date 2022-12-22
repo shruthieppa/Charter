@@ -2,9 +2,11 @@ package service;
 
 import java.time.Month;
 import java.util.Collection;
+import org.springframework.stereotype.Service;
 
 import model.Order;
 
+@Service
 public class RewardsService {
 	OrderService orderService;
 	
